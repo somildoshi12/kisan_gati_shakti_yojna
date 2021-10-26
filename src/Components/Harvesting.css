@@ -1,0 +1,50 @@
+.harvestingPage{
+    background-color: rgb(255 215 215);
+    height: fit-content;
+    /* padding-top: 40px; */
+    padding-bottom: 50px;
+    /* margin-bottom: 20px; */
+    /* margin: 20px; */
+    width: 100vw;
+    color: black;
+}
+
+.harvestingTitle{
+    background-color: rgb(45 21 21);
+    padding-top: 20px;
+    width: 100vw;
+    height: 15vh;
+    color: white;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+h3{
+    /* text-align: left; */
+    /* margin-left: 2vw; */
+}
+
+.climate{
+    width: 90vw;
+    
+    /* text-align: left;
+    margin-left: 2vw;
+    justify-content: center;
+    text-align: center;
+    width: 50vw; */
+}
+
+.image{
+    width: 700px;
+
+}
+
+.bg{
+    /* background-color: black; */
+    /* color: white; */
+    font-size: large;
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Form.css';
 
 export default function Form() {
@@ -63,12 +64,7 @@ export default function Form() {
                     <option value="29">Uttarakhand</option>
                     <option value="30">West Bengal</option>
                 </select>
-                let temp = {states};
-                <div>
-                    <p>{states}</p>
-                    <p>ನಮಸ್ಕಾರ   નમસ્તે</p>
-                </div>
-                {/* const a = 5; */}
+                <Link className="btn-form btn-dark" to="/temp">Submit</Link>
             </div>
         </div>
     )

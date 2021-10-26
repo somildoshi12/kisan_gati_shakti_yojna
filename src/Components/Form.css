@@ -12,3 +12,11 @@
     margin: auto;
     justify-content: center;
 }
+
+.btn-form{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+}

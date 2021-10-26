@@ -11,3 +11,14 @@
     width: 50%;
     font-size: 1.75vw;
 }
+
+.btn-home{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btn-home a:hover{
+    text-decoration: none;
+    color: inherit;
+}

@@ -3,13 +3,14 @@ import Form from './Components/Form';
 import Homepage from './Components/Homepage';
 import Intro from './Components/Intro';
 import Navbar from './Components/Navbar';
-// import temp from './Components/temp';
+import Temp from './Components/Temp';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+import Harvesting from './Components/Harvesting';
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
 
           <Switch>
             <Route exact path="/">
-              <Intro />
-              <Homepage />
-              <Form />
+              <Harvesting />
+              {/* <Intro />
+              <Homepage /> */}
             </Route>
 
             <Route exact path="/home">
@@ -31,6 +32,10 @@ function App() {
 
             <Route exact path="/form">
               <Form />
+            </Route>
+
+            <Route exact path="/temp">
+              <Temp />
             </Route>
 
           </Switch>
