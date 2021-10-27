@@ -18,12 +18,14 @@ function App() {
       <Router>
         <div>
           <Navbar />
+          {/* <Form/> */}
+          {/* <p>Outside value {a}</p> */}
 
           <Switch>
             <Route exact path="/">
-              <Harvesting />
-              {/* <Intro />
-              <Homepage /> */}
+              {/* <Harvesting /> */}
+              <Intro />
+              <Homepage />
             </Route>
 
             <Route exact path="/home">

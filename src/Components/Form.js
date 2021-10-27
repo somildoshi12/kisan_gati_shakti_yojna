@@ -17,6 +17,8 @@ export default function Form() {
         // console.log(event.target.value);
     }
 
+    const a = states.slice();
+
     return (
         <div className="formPage">
             <div className="form">
@@ -64,7 +66,9 @@ export default function Form() {
                     <option value="29">Uttarakhand</option>
                     <option value="30">West Bengal</option>
                 </select>
-                <Link className="btn-form btn-dark" to="/temp">Submit</Link>
+                
+                <Link className="btn-form btn-dark" to='/temp'>Submit</Link>
+                <p>value = {a}</p>
             </div>
         </div>
     )
